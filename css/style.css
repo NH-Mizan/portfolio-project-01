@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+  font-family:  "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+/* common css end */
+header{
+    background-color: #FFF8F3;
+  
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    margin: 0 200px;
+    padding-top: 30px;
+    
+
+}
+.header-inner .header-logo h3{
+  font-size: 45px;
+  font-weight: 800px;
+}
+.header-logo h3 span{
+    color: #FD6E0A;
+}
+.header-item{
+    justify-content: space-between;
+    display: flex;
+  
+}
+
+.header-inner .header-item ul {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    align-items: center;
+    
+    
+
+}
+.header-item ul li a{
+    color: #474747;
+}
+.backg-img{
+    background: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+   
+
+}
+/* .header-logo{
+  
+} */
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+.banner{
+    margin: 0 35px 0 200px;
+}
+.banner-inner{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.banner-dis{
+    margin-top: 200px;
+}
+.banner-dis h4{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner-dis h1{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-img img{
+    max-width: 500px;
+}
+.dis-btn{
+    margin-top: 20px;
+}
+.dis-btn .child{
+    background-color: transparent;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    margin-left: 15px;
+}
+
+/* about css start */
+.section-title h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.about-inner{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    background-color: #FFF8F3;
+
+}
+section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.about-dis p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    word-spacing: 2px;
+    margin: 30px 0;
+
+}
+.about-section{
+    border: 1px solid #000000 ;
+    background-color: #ffffff;
+    padding: 0 10px;
+   
+}
+.about-info h4{
+    font-weight: 600;
+}
+.about-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+/* Skills Css Start */
+
+.section-title p{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 30px;
+}
+.skill-inner{
+    display: flex;
+    gap: 24px;
+   
+}
+.skill-item{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* Resume Css Start */
+.resume-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+.resume-title h3{
+  margin-bottom: 10px;
+}
+.resume-item h5{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.resume-item p{
+    color: #757575;
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+/* Footer Css strat */
+
+
+.cont-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.footer-dis p{
+    margin-top: 21px;
+    margin-bottom: 30px;
+}
+.footer-inner{
+    display:grid;
+    /* justify-content: space-between; */
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    padding-top: 130px;
+}
+.footer-section{
+    background-color: #FFF8F3;
+}
+.footer-info form input, textarea{
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.footer-info form textarea{
+    height: 180px;
+}
+.footer-info .child{
+    margin-bottom: 29px;
+}
+
+
