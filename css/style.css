@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 .container{
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     
 }
@@ -237,3 +237,190 @@ section{
 }
 
 
+
+
+
+/* media quary style css start */
+
+/* mobaile phone screen */
+
+@media only screen and (max-width:576px) {
+    .header-inner , .banner-inner{
+        display: flex;
+       flex-direction: column;
+        /* padding-top: 30px;    */
+    }
+    .header-item{
+        margin-top: 25px;
+    }
+    .btn-primary {
+        font-size: 13px;
+        padding: 14px 35px;
+    }
+    .hire{
+        padding: 3px 30px;
+    }
+    
+    .backg-img{
+        background: none;
+    }
+    .banner-img img {
+        max-width: 80%;
+    }
+    .banner-dis h1{font-size: 40px;}
+    .banner-dis {
+        margin-top: 50px;
+    }
+    .banner{
+        margin-left: 40px ;
+    }
+    .about-item{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about-inner {
+        padding: 0;
+    }
+    .about-info{
+        margin-bottom: 20px;
+    }
+    .container{
+        max-width: 90%;
+    }
+    section {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .skill-inner {
+        flex-direction: column;
+    }
+    .section-title p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .resume-item h5 {
+        font-size: 14px;
+    }
+    .resume-item p{
+        font-size: 13px;
+    }
+    .footer-inner{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .footer-info form textarea{
+        height: 100px;
+    }
+    .footer-info form input{
+        height: 45px;
+    }
+    .re-bg{
+        background-color:#FFF8F3 ;
+    }
+
+    
+}
+
+
+
+/* Tablet screen Responsive */
+
+@media only screen and (min-width:576px)and (max-width:767px){
+
+    .backg-img{
+        background: none;
+    }
+    .re-bg{
+        background-color:#FFF8F3 ;
+    }.header-inner{
+        margin: 0 30px;
+    }
+    .banner {
+        margin: 0px 0px 0 30px;
+    }
+    .banner-inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .banner-img img{
+        max-width: 80%;
+        margin-top: 70px;
+    }
+    .banner-dis h1 {
+        font-size: 50px;
+    }
+    .btn-primary {
+        padding: 10px 15px;
+    }
+    .dis-btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    section {
+        margin-top: 50px;
+        margin-bottom:0;
+    }
+    .skill-inner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .skill-item{
+        margin-top: 20px;
+       
+    }
+    .about-item{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+     .about-inner {
+        padding: 0;
+    }
+    .about-info{
+        margin-bottom: 20px;
+      }
+      .container {
+          max-width: 90%;
+          
+        }
+    .footer-info form input{height: 50px;}
+    .footer-info form textarea {
+            height: 95px;}
+}
+            
+
+
+/* Dextop screen Responsive */
+
+@media only screen and (min-width:767px)and (max-width:992px){
+  .header-inner{
+    margin: 0 30px;
+}
+.banner {
+    margin: 0px 0px 0 30px;
+}
+.backg-img{
+    background: none;
+}
+section {
+    margin-top: 50px;
+    margin-bottom:0;
+}
+.about-inner{
+    padding: 67px 97px;
+}
+.about-info{
+    margin-bottom: 20px;
+  }
+  .section-title p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.container{
+    max-width: 95%;
+}
+.footer-info form input{height: 50px;}
+.footer-info form textarea {
+            height: 95px;}
+}
+.footer-inner{padding-top: 30px;}
